@@ -241,7 +241,7 @@ static void MX_MRSUBG_Init(void)
   MRSUBG_RadioInitStruct.lBandwidth = 100000;
   MRSUBG_RadioInitStruct.dsssExp = 0;
   MRSUBG_RadioInitStruct.outputPower = 0;
-  MRSUBG_RadioInitStruct.PADrvMode = PA_DRV_TX_HP;
+
   HAL_MRSubG_Init(&MRSUBG_RadioInitStruct);
   
   /* Configures the packet parameters */

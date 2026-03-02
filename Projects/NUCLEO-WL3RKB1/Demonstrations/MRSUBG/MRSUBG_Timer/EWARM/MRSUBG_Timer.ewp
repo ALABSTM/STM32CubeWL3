@@ -74,7 +74,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>STM32WL3RKB	ST STM32WL3RKB</state>
+                    <state>STM32WL3RK8	ST STM32WL3RK8</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -120,7 +120,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32WL3RKB	ST STM32WL3RKB</state>
+                    <state>STM32WL3RK8	ST STM32WL3RK8</state>
                 </option>
                 <option>
                     <name>FPU2</name>

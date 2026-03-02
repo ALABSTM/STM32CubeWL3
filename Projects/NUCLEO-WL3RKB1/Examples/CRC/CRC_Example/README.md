@@ -53,8 +53,8 @@ Security, CRC, CRC Polynomial, CRC-8-WCDMA, hardware CRC
 
   - This example runs on STM32WL3RKBVx devices.
   
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1
-    application board and can be easily tailored to any other supported device 
+  - This example has been tested with an STMicroelectronics NUCLEO-WL3RKB
+    board and can be easily tailored to any other supported device 
     and development board.
 
 ### <b>How to use it ?</b> 

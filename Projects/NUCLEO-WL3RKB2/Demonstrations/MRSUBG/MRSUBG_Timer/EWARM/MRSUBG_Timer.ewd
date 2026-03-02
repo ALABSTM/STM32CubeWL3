@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state>$TOOLKIT_DIR$\CONFIG\debugger\ST\STM32WL3RxB.ddf</state>
+                    <state>$TOOLKIT_DIR$\CONFIG\debugger\ST\STM32WL3Rx8.ddf</state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
@@ -112,7 +112,7 @@
                 </option>
                 <option>
                     <name>FlashLoadersV3</name>
-                    <state>$TOOLKIT_DIR$/config/flashloader/ST/FlashSTM32WL3xxB.board</state>
+                    <state>$TOOLKIT_DIR$/config/flashloader/ST/FlashSTM32WL3xx8.board</state>
                 </option>
                 <option>
                     <name>OCImagesSuppressCheck1</name>

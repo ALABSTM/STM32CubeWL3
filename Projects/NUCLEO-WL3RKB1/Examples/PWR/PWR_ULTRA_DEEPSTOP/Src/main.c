@@ -36,6 +36,7 @@
 
 #define LED_TOGGLE_DELAY         100UL
 
+/* USER CODE END PD */
 #define LED_TOGGLE_DELAY_SLOW     1000UL
 #define LED_TOGGLE_DELAY_medium    400UL
 #define LED_TOGGLE_DELAY_FAST       50UL
@@ -51,8 +52,6 @@ typedef enum {
 } WakeupSource_t;
 
 volatile WakeupSource_t wakeup_source = WAKEUP_NONE;
-/* USER CODE END PD */
-
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 
@@ -70,7 +69,6 @@ static uint32_t TimingDelay = LED_TOGGLE_DELAY;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void PeriphCommonClock_Config(void);
-static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -87,7 +85,6 @@ static void MX_GPIO_Init(void);
 int main(void)
 {
 
-  /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
 
@@ -114,7 +111,7 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
+
   /* USER CODE BEGIN 2 */
   
   /* Configure LD1 and LD2 */
@@ -208,24 +205,6 @@ void PeriphCommonClock_Config(void)
   }
 }
 
-/**
-  * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_GPIO_Init(void)
-{
-  /* USER CODE BEGIN MX_GPIO_Init_1 */
-
-  /* USER CODE END MX_GPIO_Init_1 */
-
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOA_CLK_ENABLE();
-
-  /* USER CODE BEGIN MX_GPIO_Init_2 */
-
-  /* USER CODE END MX_GPIO_Init_2 */
-}
 
 /* USER CODE BEGIN 4 */
 
@@ -312,7 +291,8 @@ void Error_Handler(void)
 
   /* USER CODE END Error_Handler_Debug */
 }
-#ifdef USE_FULL_ASSERT
+
+#ifdef  USE_FULL_ASSERT
 /**
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.

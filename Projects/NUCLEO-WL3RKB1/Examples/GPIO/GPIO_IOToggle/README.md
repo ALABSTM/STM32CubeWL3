@@ -3,7 +3,7 @@
 How to configure and use GPIOs through the HAL API.
 
 PB.07 and PB.15 IOs (configured in output pushpull mode) toggle in a forever loop.
-On NUCLEO-WL3RKB1 board these IOs are connected to LD1 and LD2.
+On NUCLEO-WL3RKB board these IOs are connected to LD1 and LD2.
 
 In this example, HCLK is configured at 64 MHz.
 
@@ -37,7 +37,7 @@ System, GPIO, Input, Output, Alternate function, Push-pull, Toggle
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 application board and can be
+  - This example has been tested with NUCLEO-WL3RKB board and can be
     easily tailored to any other supported device and development board.
 
 ### <b>How to use it ?</b>

@@ -193,7 +193,7 @@
 		<link>
 			<name>Application/User/Startup/startup_stm32wl3rx.s</name>
 			<type>1</type>
-			<location>PARENT-1-PROJECT_LOC/STM32CubeIDE/Application/User/Startup/startup_stm32wl3rx.s</location>
+			<location>C:/git/wl3_release_v1.3.0.rc1/Firmware/Projects/NUCLEO-WL3RKB1/Demonstrations/Command_Line_Interface/CLI/STM32CubeIDE/Application/User/Startup/startup_stm32wl3rx.s</location>
 		</link>
 		<link>
 			<name>Application/User/System/hw_mrsubg.c</name>

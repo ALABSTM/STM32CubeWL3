@@ -210,6 +210,7 @@
         </option>
         <option>
           <name>CCDefines</name>
+          <state>NUCLEO_WL3RKB</state>
           <state>USE_HAL_DRIVER</state>
           <state>STM32WL3RX</state>
           <state></state>
@@ -756,7 +757,7 @@
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>$PROJ_DIR$/stm32wl3rxx_flash.icf</state>
+          <state>$PROJ_DIR$/stm32wl3rx_flash.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
@@ -1110,7 +1111,7 @@
       <group>
         <name>STM32WL3R-nucleo</name>
         <file>
-          <name>$PROJ_DIR$/../../../../../../Drivers/BSP/STM32WL3R-Nucleo/stm32wl3r_nucleo.c</name>
+          <name>$PROJ_DIR$/../../../../../../Drivers/BSP/STM32WL3R-Nucleo\stm32wl3r_nucleo.c</name>
         </file>
       </group>
     </group>

@@ -21,12 +21,12 @@ Startup and LED Behavior:
 
 After a reset, the default behavior is that LD1 is on.
 
-  - LD1 ON: system in Run mode
+  - LD1 on: system in Run mode
   - LD1 off : system in Shutdown mode
   - LD2 blinking slow : wakeup from B1
   - LD2 blinking medium : wakeup from B2
   - LD2 blinking fast :wakeup from B3
-  - LD3 ON: configuration failed (system will go to an infinite loop)
+  - LD3 on: configuration failed (system will go to an infinite loop)
 
 
 #### <b>Notes</b>
@@ -51,13 +51,13 @@ Power, PWR, Deepstop mode, Interrupt, Wakeup, Low Power, External reset
 
 ### <b>Hardware and Software environment</b> 
 
-  - This example runs on STM32WL3RKBVx devices.
+  - This example runs on STM32WL3RKB devices
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1
+  - This example has been tested with STMicroelectronics NUCLEO-STM32WL3RKB1
     board and can be easily tailored to any other supported device
     and development board.
 
-  - NUCLEO-WL3RKB1 Set-up
+  - NUCLEO-STM32WL3RKB Set-up
     - Use LD1, LD2 and LD3 connected respectively to PB7, PB15 and PB2 pins
     - USER push-buttons connected to pins PA0 (B1_PIN), PA7 (B2_PIN), PB0 (B3_PIN)
     - WakeUp Pins connected to PB0, PA0, PA7, PA8, PA9, PA11

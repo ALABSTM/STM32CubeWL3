@@ -117,5 +117,6 @@ VP_WMBUS_VS_wMBusWL3.Mode=wMBus_Enabled
 VP_WMBUS_VS_wMBusWL3.Signal=WMBUS_VS_wMBusWL3
 WMBUS.IPParameters=ST_WMB_TX_Trigger,ST_WMB_TYPE,ST_WMB_MODE
 WMBUS.ST_WMB_MODE=ST_WMB_C1
+WMBUS.IPParameters=ST_WMB_TX_Trigger
 WMBUS.ST_WMB_TX_Trigger=PushButton
 board=custom

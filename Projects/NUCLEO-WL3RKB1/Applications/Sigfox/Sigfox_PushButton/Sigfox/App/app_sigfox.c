@@ -107,15 +107,15 @@ void MX_Sigfox_Process(void)
   /* USER CODE BEGIN MX_Sigfox_Process_2 */
 #if (CFG_LPM_SUPPORTED == 1)
   PowerSaveLevels app_powerSave_level, vtimer_powerSave_level, final_level;
-
+  
   app_powerSave_level = App_PowerSaveLevel_Check();
-
-  if (app_powerSave_level != POWER_SAVE_LEVEL_DISABLED)
+  
+  if(app_powerSave_level != POWER_SAVE_LEVEL_DISABLED)
   {
     vtimer_powerSave_level = HAL_MRSUBG_TIMER_PowerSaveLevelCheck();
     final_level = (PowerSaveLevels)MIN(vtimer_powerSave_level, app_powerSave_level);
-
-    switch (final_level)
+    
+    switch(final_level)
     {
     case POWER_SAVE_LEVEL_DISABLED:
       /* Not Power Save device is busy */
@@ -133,12 +133,8 @@ void MX_Sigfox_Process(void)
       UTIL_LPM_SetStopMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       UTIL_LPM_SetOffMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       break;
-    case POWER_SAVE_LEVEL_ULTRADEEPSTOP:
-      /* Not yet supported by LPM */
-      return;
-      break;
     }
-
+    
     UTIL_LPM_EnterLowPower();
   }
 #endif /* CFG_LPM_SUPPORTED */

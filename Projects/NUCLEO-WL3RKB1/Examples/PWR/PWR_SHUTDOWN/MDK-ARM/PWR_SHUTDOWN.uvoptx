@@ -22,7 +22,7 @@
   </DaveTm>
 
   <Target>
-    <TargetName>PWR_SHUTDOWN</TargetName>
+    <TargetName>GPIO_IOToggle</TargetName>
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>

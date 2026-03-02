@@ -24,7 +24,7 @@
 <section id="tim_timebase-example-description" class="col-sm-12 col-lg-8">
 <h2><b>TIM_TimeBase Example Description</b></h2>
 <p>This example shows how to configure the TIM peripheral to generate a time base of one second with the corresponding Interrupt request.</p>
-<p>At the beginning of the main program the HAL_Init() function is called to reset all the peripherals, initialize the Flash interface and the systick. The SystemClock_Config() function is used to configure the system clock for STM32WL3RKBVx Devices : The CPU at 64MHz</p>
+<p>At the beginning of the main program the HAL_Init() function is called to reset all the peripherals, initialize the Flash interface and the systick. The SystemClock_Config() function is used to configure the system clock for STM32WL3RKBCCVx Devices : The CPU at 64MHz</p>
 <pre><code>In this example TIM2 input clock (TIM2CLK)  is set to APB0 clock (PCLK1),
 since APB0 prescaler is equal to 1.
   TIM2CLK = PCLK1
@@ -37,7 +37,7 @@ Prescaler = (SystemCoreClock /10 KHz) - 1</code></pre>
 <p>The TIM2 ARR register value is equal to 10000 - 1</p>
 <p>Update rate = TIM2 counter clock / (Period + 1) = 1 Hz</p>
 <p>So the TIM2 generates an interrupt each 1 s</p>
-<p>When the counter value reaches the auto-reload register value, the TIM update interrupt is generated and, in the handler routine, pin PB.07 (connected to LD1 on board NUCLEO-WL3RKB1) is toggled. So led blinks at the following frequency: 0.5Hz.</p>
+<p>When the counter value reaches the auto-reload register value, the TIM update interrupt is generated and, in the handler routine, pin PB.07 (connected to LD1 on board NUCLEO-WL3RKBCC) is toggled. So led blinks at the following frequency: 0.5Hz.</p>
 <p>In case of error, LD3 is turned ON.</p>
 <h4 id="notes"><b>Notes</b></h4>
 <ol type="1">
@@ -60,10 +60,10 @@ Prescaler = (SystemCoreClock /10 KHz) - 1</code></pre>
 </ul>
 <h3 id="hardware-and-software-environment"><b>Hardware and Software environment</b></h3>
 <ul>
-<li><p>This example runs on STM32WL3RKBVx devices.</p></li>
+<li><p>This example runs on STM32WL3RKBCCVx devices.</p></li>
 <li><p>In this example, the clock is set to 64MHz.</p></li>
-<li><p>This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 board and can be easily tailored to any other supported device and development board.</p></li>
-<li><p>NUCLEO-WL3RKB1 Set-up</p>
+<li><p>This example has been tested with STMicroelectronics NUCLEO-WL3RKBCC board and can be easily tailored to any other supported device and development board.</p></li>
+<li><p>NUCLEO-WL3RKBCC Set-up</p>
 <ul>
 <li>Use LD1 connected to PB.07 pin (pin 6 in CN4 connector) and connect it on an oscilloscope to show the time base signal.</li>
 </ul></li>

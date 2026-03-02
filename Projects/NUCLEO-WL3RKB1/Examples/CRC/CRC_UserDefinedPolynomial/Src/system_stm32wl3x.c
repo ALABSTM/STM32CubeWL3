@@ -9,7 +9,7 @@
   *   user application:
   *      - SystemInit(): This function is called at startup just after reset and
   *                      before branch to main program. This call is made inside
-  *                      the "startup_stm32wl3rx.s" file.
+  *                      the "startup_stm32wl3x.s" file.
   *
   *      - SystemCoreClock variable: Contains the core clock (HCLK), it can be used
   *                                  by the user application to setup the SysTick
@@ -20,7 +20,7 @@
   *                                 during program execution.
   *
   *   After each device reset the HSI (64 MHz) is used as system clock source.
-  *   Then SystemInit() function is called, in "startup_stm32wl3rx.s" file, to
+  *   Then SystemInit() function is called, in "startup_stm32wl3x.s" file, to
   *   configure the system clock before to branch to main program.
   *
   *   This file configures the system clock as follows:

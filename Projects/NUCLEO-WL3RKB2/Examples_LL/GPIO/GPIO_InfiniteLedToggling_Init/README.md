@@ -4,8 +4,8 @@ How to configure and use GPIOs to toggle the on-board user LEDs
 every 250 ms. This example is based on the STM32WL3x LL API. The peripheral
 is initialized with LL initialization function to demonstrate LL init usage.
 
-PB.07 IO (configured in output pushpull mode) toggles in a forever loop.
-On NUCLEO-WL3RKB2 board this IO is connected to LD1.
+PA.14 IO (configured in output pushpull mode) toggles in a forever loop.
+On NUCLEO-WL3RKB board this IO is connected to LD1.
 
 In this example, HCLK is configured at 64 MHz.
 
@@ -26,7 +26,7 @@ System, GPIO, Output, No pull, Speed, Push-pull, Toggle
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB2 application board and can be
+  - This example has been tested with NUCLEO-WL3RKB board and can be
     easily tailored to any other supported device and development board.
 
 ### <b>How to use it ?</b>

@@ -120,7 +120,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32WL3RKB	ST STM32WL3RKB</state>
+                    <state>STM32WL33KC	ST STM32WL33KC</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -763,7 +763,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$/config/linker/ST/STM32WL3RxB.icf</state>
+                    <state>$TOOLKIT_DIR$\config\generic_cortex.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>

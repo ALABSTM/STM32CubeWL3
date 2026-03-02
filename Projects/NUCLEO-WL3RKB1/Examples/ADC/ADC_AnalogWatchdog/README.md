@@ -14,7 +14,7 @@ Analog watchdog 1 is configured to monitor all channels on ADC group regular
 
 Analog watchdog thresholds values:
 
-- high threshold is set to Vref+/2 (3.3V/2=1.65V on NUCLEO-WL3RKB1), refer to literal ADC_AWD_THRESHOLD_HIGH.
+- high threshold is set to Vref+/2 (3.3V/2=1.65V on NUCLEO-WL3RKB), refer to literal ADC_AWD_THRESHOLD_HIGH.
 - low threshold is set to 0V, refer to literal ADC_AWD_THRESHOLD_LOW.
 ADC interruption enabled: Analog watchdog 1.
 
@@ -81,7 +81,7 @@ ADC, analog digital converter, analog, conversion, voltage, channel, analog inpu
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 application board and can be
+  - This example has been tested with NUCLEO-WL3RKB board and can be
     easily tailored to any other supported device and development board.
 
 ### <b>How to use it ?</b>

@@ -27,6 +27,7 @@
  * 1 tab == 4 spaces!
  */
 /* USER CODE END Header */
+
 #ifndef FREERTOS_CONFIG_H
 #define FREERTOS_CONFIG_H
 
@@ -71,9 +72,6 @@ extern uint32_t SystemCoreClock;
 #define configSTACK_ALLOCATION_FROM_SEPARATE_HEAP 0
 #define configMAX_TASK_NAME_LEN                  ( 16 )
 #define configHEAP_CLEAR_MEMORY_ON_FREE          0
-#define configUSE_MINI_LIST_ITEM                 1
-#define configUSE_SB_COMPLETED_CALLBACK          0
-#define configKERNEL_PROVIDED_STATIC_MEMORY      1
 #define configUSE_TRACE_FACILITY                 1
 #define configUSE_16_BIT_TICKS                   0
 #define configUSE_MUTEXES                        1
@@ -83,6 +81,10 @@ extern uint32_t SystemCoreClock;
 #define configENABLE_BACKWARD_COMPATIBILITY      0
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION  0
 #define configUSE_TASK_NOTIFICATIONS             1
+#define configHEAP_CLEAR_MEMORY_ON_FREE          0
+#define configUSE_MINI_LIST_ITEM                 1
+#define configUSE_SB_COMPLETED_CALLBACK          0
+#define configKERNEL_PROVIDED_STATIC_MEMORY      1
 #define configSTATS_BUFFER_MAX_LENGTH            0xFFFF
 #define configENABLE_HEAP_PROTECTOR              0
 #define configUSE_EVENT_GROUPS                   1

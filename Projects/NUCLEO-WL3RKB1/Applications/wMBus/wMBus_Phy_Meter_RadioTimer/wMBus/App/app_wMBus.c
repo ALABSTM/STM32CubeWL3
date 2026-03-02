@@ -236,10 +236,6 @@ void MX_wMBus_Idle()
       UTIL_LPM_SetStopMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       UTIL_LPM_SetOffMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       break;
-    case POWER_SAVE_LEVEL_ULTRADEEPSTOP:
-      /* Not yet supported by LPM */
-      return;
-      break;
     }
 
     UTIL_LPM_EnterLowPower();

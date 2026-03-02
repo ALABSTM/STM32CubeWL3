@@ -101,7 +101,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  /* -1- Initialize LEDs mounted on NUCLEO-WL3RKB2 board */
+  /* -1- Initialize LEDs mounted on NUCLEO-WL33CC board */
   BSP_LED_Init(LD1);
 
   /* -2- Configure B1_PIN (connected to PA.00 pin) in interrupt mode */

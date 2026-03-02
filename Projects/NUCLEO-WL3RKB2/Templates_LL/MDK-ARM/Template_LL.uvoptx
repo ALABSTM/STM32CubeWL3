@@ -140,12 +140,12 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>UL2CM3</Key>
-          <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC4000 -FN1 -FF0STM32WL3x_128K -FS010040000 -FL020000 -FP0($$Device:STM32WL3RKBVx$CMSIS\Flash\STM32WL3x_128K.FLM)</Name>
+          <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC4000 -FN1 -FF0STM32WL3x_128K -FS010040000 -FL040000 -FP0($$Device:STM32WL3RKBVx$CMSIS\Flash\STM32WL3x_128K.FLM))</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-U0032001F4142500220353451 -O206 -SF4000 -C0 -A0 -I2 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(0BC11477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC4000 -FN1 -FF0STM32WL3x_128K.FLM -FS010040000 -FL020000 -FP0($$Device:STM32WL3RKBVx$CMSIS\Flash\STM32WL3x_128K.FLM)</Name>
+          <Name>-U-O142 -O206 -SF4000 -C0 -A0 -I2 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(0BC11477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC4000 -FN1 -FF0STM32WL3x_128K.FLM -FS010040000 -FL020000 -FP0($$Device:STM32WL3RKBVx$CMSIS\Flash\STM32WL3x_128K.FLM) -WA0 -WE0 -WVCE4 -WS2710 -WM0 -WP2 -WK0</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -212,8 +212,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>startup_stm32wl3rx.s</PathWithFileName>
-      <FilenameWithoutPath>startup_stm32wl3rx.s</FilenameWithoutPath>
+      <PathWithFileName>startup_stm32wl3xx.s</PathWithFileName>
+      <FilenameWithoutPath>startup_stm32wl3xx.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

@@ -97,7 +97,6 @@ void MX_wMBus_Process()
   /* USER CODE BEGIN MX_wMBus_Process_1 */
 
   /* USER CODE END MX_wMBus_Process_1 */
-  UNUSED(status);
 
 #ifdef PROCESS_FRAME
   status = wMBus_DataLink_receive_frame(&receivedFrame);
@@ -189,6 +188,9 @@ static void wMBus_init()
   uint8_t a_field[6] = {0x22, 0x01, 0x08, 0x10, 0x01, 0x02};
   uint8_t m_field[2] = {0x85, 0x5D};
   wMBus_DataLink_init(m_field, a_field, WMBUS_DEVICE_TYPE, WMBUS_MODE, WMBUS_FORMAT, WMBUS_DIRECTION);
+#ifdef WMBUS_ACTIVE_POWER_MODE_ENABLED
+  wMBus_Phy_set_active_power_mode(WMBUS_LPM);
+#endif
   wMBus_DataLink_startRx();
   /* USER CODE BEGIN wMBus_init_2 */
   printf("STM32WL3 wM-Bus DataLink Demo - Concentrator.\r\n");

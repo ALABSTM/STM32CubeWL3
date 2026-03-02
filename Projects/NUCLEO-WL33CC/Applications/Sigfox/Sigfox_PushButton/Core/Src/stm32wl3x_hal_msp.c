@@ -1,7 +1,7 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    stm32wl3x_hal_msp.c
+  * @file    stm32wl3x_hal_msp.h
   * @author  GPM WBL Application Team
   * @brief   This file contains the headers of the interrupt handlers.
   ******************************************************************************

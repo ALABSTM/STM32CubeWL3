@@ -63,7 +63,7 @@ Security, CRYP, AES, TrustZone disabled
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This template has been tested with STMicroelectronics NUCLEO-WL3RKB2
+  - This template has been tested with STMicroelectronics NUCLEO-WL3RKB
     board and can be easily tailored to any other supported device
     and development board.
 

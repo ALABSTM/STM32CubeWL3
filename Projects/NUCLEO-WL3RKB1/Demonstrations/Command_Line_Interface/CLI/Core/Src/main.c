@@ -139,9 +139,9 @@ int main(void)
     /* CLI parser loop */
     if(processCmdInput(interactive))
     {
-      if (interactive) {
-        printf(">");
-      }
+	if (interactive) {
+	  printf(">");
+	}
     }
     /* USER CODE END WHILE */
   }
@@ -310,7 +310,7 @@ void fwVersionAction(void)
 
 void rebootAction(void)
 {
-  responsePrintf("{&N API call...}\r\n", "reboot");
+  responsePrintf("{&N API call...&ts}\r\n", "reboot");
   NVIC_SystemReset();
 }
 

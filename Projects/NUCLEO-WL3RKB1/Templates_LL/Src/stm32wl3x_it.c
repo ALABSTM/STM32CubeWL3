@@ -138,7 +138,7 @@ void SysTick_Handler(void)
 /* STM32WL3x Peripheral Interrupt Handlers                                    */
 /* Add here the Interrupt Handlers for the used peripherals.                  */
 /* For the available peripheral interrupt handler names,                      */
-/* please refer to the startup file (startup_stm32wl3rx.s).                    */
+/* please refer to the startup file (startup_stm32wl3x.s).                    */
 /******************************************************************************/
 
 /* USER CODE BEGIN 1 */

@@ -310,7 +310,7 @@ void fwVersionAction(void)
 
 void rebootAction(void)
 {
-  responsePrintf("{&N API call...}\r\n", "reboot");
+  responsePrintf("{&N API call...&ts}\r\n", "reboot");
   NVIC_SystemReset();
 }
 

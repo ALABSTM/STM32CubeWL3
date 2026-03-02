@@ -26,7 +26,7 @@ Update rate = TIM2 counter clock / (Period + 1) = 1 Hz
 So the TIM2 generates an interrupt each 1 s
 
 When the counter value reaches the auto-reload register value, the TIM update 
-interrupt is generated and, in the handler routine, pin PB.07 (connected to LD1 on board NUCLEO-WL3RKB1)
+interrupt is generated and, in the handler routine, pin PB.07 (connected to LD1 on board NUCLEO-WL3RKB)
 is toggled. So led blinks at the following frequency: 0.5Hz.
 
 In case of error, LD3 is turned ON.
@@ -63,11 +63,11 @@ Timer, TIM, time base , Interrupt, Clock source
   - This example runs on STM32WL3RKBVx devices.
   - In this example, the clock is set to 64MHz.
     
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1
+  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB
     board and can be easily tailored to any other supported device
     and development board.      
 
-  - NUCLEO-WL3RKB1 Set-up
+  - NUCLEO-WL3RKB Set-up
     - Use LD1 connected to PB.07 pin (pin 6 in CN4 connector) and connect it on an oscilloscope 
       to show the time base signal.  
 

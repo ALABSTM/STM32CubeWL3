@@ -57,7 +57,7 @@ STM32WL3x memory map
 LR_IROM1 (_MEMORY_FLASH_BEGIN_+MEMORY_FLASH_APP_OFFSET) _MEMORY_FLASH_SIZE_  {    ; load region size_region
   REGION_FLASH (_MEMORY_FLASH_BEGIN_ + MEMORY_FLASH_APP_OFFSET) (MEMORY_FLASH_APP_SIZE)  {  ; load address = execution address
    *.o (RESET, +First)
-   *(InRoot$$Sections)
+   *(InRoot$Sections)
    .ANY (+RO)
   }
   ram_vr_block 0x20000004 UNINIT 0x2C {

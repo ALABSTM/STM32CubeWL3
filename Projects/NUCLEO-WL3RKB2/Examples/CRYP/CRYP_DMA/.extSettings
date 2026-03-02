@@ -4,5 +4,5 @@ HeaderPath=..\..\..\..\..\..\Drivers\BSP\STM32WL3R-Nucleo
 Define=
 HALModule=UART
 [Groups]
-Doc=../README.md;
+Doc=../README.md;../Expected_Results.md;
 Drivers/BSP/STM32WL3R-Nucleo=../../../../../../Drivers/BSP/STM32WL3R-Nucleo/stm32wl3r_nucleo.c;

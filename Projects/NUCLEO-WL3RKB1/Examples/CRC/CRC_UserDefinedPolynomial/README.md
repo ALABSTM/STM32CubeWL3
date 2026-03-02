@@ -54,7 +54,7 @@ Security, CRC, CRC Polynomial, CRC-8-WCDMA, hardware CRC, user-defined generatin
 ### <b>Hardware and Software environment</b> 
 
   - This example runs on STM32WL3RKBVx devices.
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 application board and can be
+  - This example has been tested with NUCLEO-WL3RKB board and can be
     easily tailored to any other supported device and development board.
 
 ### <b>How to use it ?</b> 

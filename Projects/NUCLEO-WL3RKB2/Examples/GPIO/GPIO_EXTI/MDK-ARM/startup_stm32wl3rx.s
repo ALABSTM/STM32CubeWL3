@@ -1,5 +1,5 @@
 ;********************************************************************************
-;* File Name          : startup_stm32wl3rx.s
+;* File Name          : startup_stm32wl3x.s
 ;* Author             : GPM WBL Application Team
 ;* Description        : STM32WL3x Ultra Low Power Devices vector
 ;*                      This module performs:

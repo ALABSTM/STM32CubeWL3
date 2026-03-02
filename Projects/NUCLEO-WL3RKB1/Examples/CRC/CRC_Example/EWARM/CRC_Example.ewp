@@ -86,7 +86,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>STM32WL3RKB	ST STM32WL3RKB</state>
+                    <state>STM32WL33CC	ST STM32WL33CC</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -132,7 +132,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32WL3RKB	ST STM32WL3RKB</state>
+                    <state>STM32WL33CC	ST STM32WL33CC</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -222,8 +222,9 @@
                 <debug>1</debug>
                 <option>
                     <name>CCDefines</name>
+                    <state>NUCLEO_WL33CC</state>
                     <state>USE_HAL_DRIVER</state>
-                    <state>STM32WL3RX</state>
+                    <state>STM32WL33</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -762,7 +763,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$\stm32wl3rxx_flash.icf</state>
+                    <state>$PROJ_DIR$\stm32wl3rx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>

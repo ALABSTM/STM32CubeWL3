@@ -624,8 +624,6 @@ void DirectBufferDumpAction(){
   SDBDumpRecord dbRecord;
   dbRecord.itemSize = DIRECT_BUFFER_ITEM_SIZE;
   dbRecord.itemNumber = 1;
-  dbRecord.commandName = "DirectBufferDumpAction";
-  dbRecord.dbHeader = "BUFDUMP";
 
   DBDump(dbRecord, 0, 0);
 }

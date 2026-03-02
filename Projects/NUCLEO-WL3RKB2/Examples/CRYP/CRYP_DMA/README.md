@@ -63,7 +63,7 @@ Security, Cryptography, CRYPT, AES, ECB, DMA, cipher, UART
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB2 application board with socket using STM32WL3RKBVx plugged-in
+  - This example has been tested with NUCLEO-WL3RKB board with socket using STM32WL3RKBVx plugged-in
     and can be easily tailored to any other supported device and development board.
 
   - Hyperterminal configuration:

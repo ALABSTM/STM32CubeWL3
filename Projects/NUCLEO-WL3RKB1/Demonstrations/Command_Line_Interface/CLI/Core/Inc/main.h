@@ -45,7 +45,7 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-#define FW_VERSION      "WL3R v1.0.2"
+#define FW_VERSION      "1.0.1R"
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

@@ -22,7 +22,7 @@ MRSUBG, radio
 
 ### <b>Hardware and Software environment</b>
 
-  - This example runs on STM32WL3RKBVx devices.
+  - This example runs on STM32WL3RKB1 device.
     Connect the Nucleo Board to your PC with a USB cable type A to USB type C to ST-LINK connector (USB_STLINK). 
 
 ### <b>How to use it ?</b>

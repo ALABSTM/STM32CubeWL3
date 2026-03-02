@@ -24,9 +24,9 @@
 <section id="tim_inputcapture-example-description" class="col-sm-12 col-lg-8">
 <h2><b>TIM_InputCapture Example Description</b></h2>
 <p>How to use the TIM peripheral to measure an external signal frequency.</p>
-<p>At the beginning of the main program the HAL_Init() function is called to reset all the peripherals, initialize the Flash interface and the systick. The SystemClock_Config() function is used to configure the system clock for STM32WL3RKBVx Devices : The CPU at 64MHz</p>
+<p>At the beginning of the main program the HAL_Init() function is called to reset all the peripherals, initialize the Flash interface and the systick. The SystemClock_Config() function is used to configure the system clock for STM32WL3RKBCCVx Devices : The CPU at 64MHz</p>
 <p>The TIM2CLK frequency is set to SystemCoreClock (Hz), the Prescaler is 0, so the TIM2 counter clock is SystemCoreClock (Hz).</p>
-<p>SystemCoreClock is set to 64MHz for STM32WL3RKBVx Devices.</p>
+<p>SystemCoreClock is set to 64MHz for STM32WL3RKBCCVx Devices.</p>
 <p>TIM2 is configured in Input Capture Mode: the external signal is connected to TIM2 Channel4 used as input pin. To measure the frequency we use the TIM2 CC interrupt request, so in the TIM2 CC IRQHandler routine, the frequency of the external signal is computed.</p>
 <p>The “uwFrequency” variable contains the external signal frequency:</p>
 <p>uwFrequency = TIM2 counter clock / uwDiffCapture (Hz), where “uwDiffCapture” is the difference between two consecutive TIM2 captures.</p>
@@ -54,10 +54,10 @@
 </ul>
 <h3 id="hardware-and-software-environment"><b>Hardware and Software environment</b></h3>
 <ul>
-<li><p>This example runs on STM32WL3RKBVx devices.</p></li>
+<li><p>This example runs on STM32WL3RKBCCVx devices.</p></li>
 <li><p>In this example, the clock is set to 64MHz.</p></li>
-<li><p>This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 board and can be easily tailored to any other supported device and development board.</p></li>
-<li><p>NUCLEO-WL3RKB1 Set-up</p>
+<li><p>This example has been tested with STMicroelectronics NUCLEO-WL3RKBCC board and can be easily tailored to any other supported device and development board.</p></li>
+<li><p>NUCLEO-WL3RKBCC Set-up</p>
 <ul>
 <li>Connect the external signal to measure to the TIM2 CH4 pin (PA.9 (pin 3 in CN6 connector)).</li>
 </ul></li>

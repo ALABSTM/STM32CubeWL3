@@ -68,7 +68,7 @@ Security, Cryptography, CRYPT, AES, ECB, CBC, CTR, MAC, USART
 
   - This example runs on STM32WL3RKBVx devices.
   - This example has been tested with a STM32WL3RKBVx embedded on an
-    NUCLEO-WL3RKB2 board and can be easily tailored to any other supported
+    NUCLEO-WL3RKB board and can be easily tailored to any other supported
     device and development board.
 
 ### <b>How to use it ?</b> 

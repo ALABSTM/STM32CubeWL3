@@ -64,11 +64,11 @@ Timer, TIM, DMA, Frequency, Input, Capture, External Signal, Measurement
   - This example runs on STM32WL3RKBVx devices.
   - In this example, the clock is set to 64MHz.
     
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1
+  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB
     board and can be easily tailored to any other supported device 
     and development board.      
 
-  - NUCLEO-WL3RKB1 Set-up
+  - NUCLEO-WL3RKB Set-up
     - Connect the external signal to measure to the TIM2 CH4 pin (PA.09 (pin 3 in CN6 connector)).
 
 ### <b>How to use it ?</b>

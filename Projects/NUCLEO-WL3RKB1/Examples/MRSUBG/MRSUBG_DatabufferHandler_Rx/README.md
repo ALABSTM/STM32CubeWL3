@@ -11,8 +11,8 @@ MRSUBG, radio
 
 ### <b>Directory contents</b>
 
-  - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32wl3r_nucleo_conf.h   BSP configuration file
-  - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32wl3x_hal_conf.h      HAL Configuration file
+  - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32wl3x_nucleo_conf.h   BSP configuration file
+  - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32wl3r_hal_conf.h      HAL Configuration file
   - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32wl3x_it.h            Header for stm32wl3x_it.c
   - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/main.h                    Header file for main.c
   - MRSUBG/MRSUBG_DatabufferHandler_Rx/Inc/stm32_assert.h            Assert description file
@@ -23,7 +23,7 @@ MRSUBG, radio
 
 ### <b>Hardware and Software environment</b>
 
-  - This example runs on STM32WL3RKBVx devices.
+  - This example runs on NUCLEO-WL3RKB1 application board.
   - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 application board and can be easily tailored to any other supported device and development board.  
 
 ### <b>How to use it ?</b>

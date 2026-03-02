@@ -184,10 +184,10 @@ void MX_APPE_Process(void)
 #ifndef SINGLE_TIMER_OPT
   PowerSaveLevels vtimer_powerSave_level;
 #endif
-
+  
   app_powerSave_level = App_PowerSaveLevel_Check();
-
-  if (app_powerSave_level != POWER_SAVE_LEVEL_DISABLED)
+  
+  if(app_powerSave_level != POWER_SAVE_LEVEL_DISABLED) 
   {
 #ifdef SINGLE_TIMER_OPT
     final_level = app_powerSave_level;
@@ -195,8 +195,8 @@ void MX_APPE_Process(void)
     vtimer_powerSave_level = HAL_MRSUBG_TIMER_PowerSaveLevelCheck();
     final_level = (PowerSaveLevels)MIN(vtimer_powerSave_level, app_powerSave_level);
 #endif
-
-    switch (final_level)
+    
+    switch(final_level)
     {
     case POWER_SAVE_LEVEL_DISABLED:
       /* Not Power Save device is busy */
@@ -214,16 +214,13 @@ void MX_APPE_Process(void)
       UTIL_LPM_SetStopMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       UTIL_LPM_SetOffMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
       break;
-    case POWER_SAVE_LEVEL_ULTRADEEPSTOP:
-      /* Not yet supported by LPM */
-      return;
-      break;
     }
-
+    
     UTIL_LPM_EnterLowPower();
   }
-#endif /* CFG_LPM_SUPPORTED */
   /* USER CODE END MX_APPE_Process_2 */
+
+#endif /* CFG_LPM_SUPPORTED */
 }
 
 void MX_APPE_RadioTimerConfig(void)

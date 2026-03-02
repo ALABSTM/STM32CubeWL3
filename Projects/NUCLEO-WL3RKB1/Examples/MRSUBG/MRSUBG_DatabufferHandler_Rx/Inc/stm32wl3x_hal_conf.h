@@ -1,7 +1,7 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    stm32wl3x_hal_conf.h
+  * @file    stm32wl3r_hal_conf.h
   * @author  MCD Application Team
   * @brief   HAL configuration file.
   ******************************************************************************

@@ -58,7 +58,7 @@ FreeRTOS, Mutex
 
 ### <b>Hardware and Software environment</b>
 
-  - This application runs on STM32WL33CCVx devices.
+  - This application runs on STM32WL33xx device.
   - This application has been tested with STMicroelectronics NUCLEO-WL33CC1 board MB2029A Rev. A01
     and can be easily tailored to any other supported device and development board.
 

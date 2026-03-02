@@ -10,7 +10,7 @@ lang: en
 
 - This project provides a reference template based on the STM32Cube HAL API that can be used
 to build any firmware application.
-- This project is targeted to run on STM32WL3R device on NUCLEO-WL3RKB1 board from STMicroelectronics.  
+- This project is targeted to run on STM32WL33 device on NUCLEO-WL3RKB board from STMicroelectronics.  
 - The reference template project configures the maximum system clock frequency at 64Mhz.
 
 #### <b>Notes</b>
@@ -41,8 +41,8 @@ Reference, Template
 
 ### <b>Hardware and Software environment</b>
 
-  - This template runs on STM32WL3R devices.
-  - This template has been tested with STMicroelectronics NUCLEO-WL3RKB1 board and can be easily tailored
+  - This template runs on STM32WL33 devices.
+  - This template has been tested with STMicroelectronics NUCLEO-WL3RKB board and can be easily tailored
     to any other supported device and development board.
 
 ### <b>How to use it ?</b>

@@ -20,12 +20,12 @@ with LD1 turning back on. Meanwhile, LD2 toggles at different speeds to identify
 
 Two leds LD1, LD2 and LD3 are used to monitor the system state as follows:
 
- - LD1 ON: system in Run mode
+ - LD1 on: system in Run mode
  - LD1 off : system in UltraDeepStop mode
  - LD2 blinking slow : wakeup from B1
  - LD2 blinking medium : wakeup from B2
  - LD2 blinking fast :wakeup from B3
- - LD3 ON: configuration failed (system will go to an infinite loop)
+ - LD3 on: configuration failed (system will go to an infinite loop)
 
 #### <b>Notes</b>
 
@@ -50,7 +50,7 @@ Power, PWR, UltraDeepStop mode, Interrupt, Wakeup, Low Power, External reset
 
 ### <b>Hardware and Software environment</b> 
 
-  - This example runs on STM32WL3RKBVx devices.
+  - This example runs on STM32WL3Rx devices
 
   - This example has been tested with STMicroelectronics NUCLEO-WL3Rx
     board and can be easily tailored to any other supported device

@@ -13,7 +13,7 @@ In this example:
     - B1_PIN is connected to PA.00 pin
     - when falling edge is detected on B1_PIN by pressing USER push-button, LD1 toggles once
 
-On NUCLEO-WL3RKB2:
+On NUCLEO-WL3RKB:
 
     - B1_PIN is connected to USER push-button
 
@@ -49,7 +49,7 @@ System, GPIO, EXTI, Output, Alternate function, Push-pull, Toggle
 
   - This example runs on STM32WL3RKBVx devices.
 
-  - This example has been tested with STMicroelectronics NUCLEO-WL3RKB2 application board and can be
+  - This example has been tested with NUCLEO-WL3RKB board and can be
     easily tailored to any other supported device and development board.
 
 ### <b>How to use it ?</b>

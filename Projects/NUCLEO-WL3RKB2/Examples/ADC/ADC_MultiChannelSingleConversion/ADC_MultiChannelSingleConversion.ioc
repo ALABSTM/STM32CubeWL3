@@ -1,3 +1,5 @@
+<<<<<<< PATCH SET (049127 Remove projects w/ runtime KO status from release branch)
+=======
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_TEMPSENSOR
 ADC1.Channel-1\#ChannelRegularConversion=ADC_CHANNEL_VINP1
@@ -139,3 +141,4 @@ VP_PWR_VS_SECSignals.Signal=PWR_VS_SECSignals
 VP_SYS_VS_Systick.Mode=SysTick
 VP_SYS_VS_Systick.Signal=SYS_VS_Systick
 board=custom
+>>>>>>> BASE      (5843ba feat(WL3R): KB1/KB2: Add Keil support for Examples/MRSUBG)

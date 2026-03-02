@@ -27,7 +27,7 @@ MRSUBG, radio
 
 ### <b>Hardware and Software environment</b>
 
-  - This example runs on STM32WL3RKBVx devices.
+  - This example runs on NUCLEO-WL3RKB1 application board.
 
   - This example has been tested with STMicroelectronics NUCLEO-WL3RKB1 application board and can be easily tailored to any other supported device and development board.  
 

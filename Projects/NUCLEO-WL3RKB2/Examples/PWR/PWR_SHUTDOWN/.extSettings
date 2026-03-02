@@ -1,8 +1,0 @@
-[ProjectFiles]
-HeaderPath=..\..\..\..\..\..\Drivers\BSP\STM32WL3R-Nucleo
-[Others]
-Define=
-HALModule=
-[Groups]
-Doc=../README.md;
-Drivers/BSP/STM32WL3R-Nucleo=../../../../../../Drivers/BSP/STM32WL3R-Nucleo/stm32wl3r_nucleo.c;

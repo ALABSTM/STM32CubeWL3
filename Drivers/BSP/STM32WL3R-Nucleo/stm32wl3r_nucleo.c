@@ -28,7 +28,7 @@
   * @{
   */
 
-/** @defgroup STM32WL3R_NUCLEO STM32WL3R_NUCLEO
+/** @defgroup STM32WL3X_NUCLEO STM32WL3X_NUCLEO
   * @{
   */
 
@@ -120,7 +120,7 @@ int iar_fputc(int ch);
   * @}
   */
 
-/** @defgroup STM32WL3R_NUCLEO_COMMON_Exported_Functions STM32WL3R_NUCLEO COMMON Exported Functions
+/** @defgroup STM32WL3X_NUCLEO_COMMON_Exported_Functions STM32WL3X_NUCLEO COMMON Exported Functions
   * @{
   */
 
@@ -298,7 +298,7 @@ int32_t BSP_LED_GetState(Led_TypeDef Led)
   * @}
   */
 
-/** @defgroup STM32WL3R_NUCLEO_COMMON_BUTTON_Functions STM32WL3R_NUCLEO_COMMON BUTTON Functions
+/** @defgroup STM32WL3X_NUCLEO_COMMON_BUTTON_Functions STM32WL3X_NUCLEO_COMMON BUTTON Functions
   * @{
   */
 
